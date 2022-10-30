@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Debug Deno (allow all)",
+            "type": "node",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "/opt/homebrew/bin/deno",
+            "runtimeArgs": [
+                "run",
+                "--inspect-brk",
+                "--allow-all",
+                "mod.ts"
+            ],
+            "attachSimplePort": 9229
+        }
+    ]
+}
