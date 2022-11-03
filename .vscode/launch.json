@@ -11,7 +11,7 @@
                 "run",
                 "--inspect-brk",
                 "--allow-all",
-                "mod.ts"
+                "main.ts"
             ],
             "attachSimplePort": 9229
         }
