@@ -18,9 +18,9 @@ export default function BlogPostPage(props: PageProps<Post>) {
   const { title, content, publishedAt } = props.data;
   const html = render(content);
   return (
-    <div class={tw`mt-2 ml-3`}>
+    <div class={tw`mt-2 mx-3`}>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      <h1 class={tw`text-2xl leading-7 `}>{title}</h1>
+      <h1 class={tw`text-2xl leading-7 sm:text-3xl`}>{title}</h1>
       <h2 class={tw`text-gray-500`}>{publishedAt.toLocaleString()}</h2>
       <div
         class={"markdown-body " + tw`mt-5`}

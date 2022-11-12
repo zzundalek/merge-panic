@@ -23,7 +23,7 @@ export default function Home(props: PageProps<Post[]>) {
       <div class={tw`lg:w-3/5 mx-auto px-2`}>
         <div class={tw`top-0 my-5`}>
           <h1
-            class={tw`text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:tracking-tight mb-2`}
+            class={tw`text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:tracking-tight mb-2 mx-1`}
           >
             Merge panic
           </h1>
